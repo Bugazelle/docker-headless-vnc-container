@@ -1,5 +1,17 @@
 # Docker container images with "headless" VNC session
 
+## Changes Done For This Fork
+1. Ubuntu: Updated to 18.04
+2. noVNC: Updated to v1.1.0
+3. triggerVNC: Updated to 1.9.0
+4. websockify: Updated to 0.9.0
+5. To pull the image: 
+   ```
+   docker pull bugazelle/ubuntu-xfce-vnc
+   docker pull bugazelle/ubuntu-icewm-vnc
+   ```
+
+## Original README.md
 This repository contains a collection of Docker images with headless VNC environments.
 
 Each Docker image is installed with the following components:
